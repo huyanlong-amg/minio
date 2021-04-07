@@ -1,0 +1,14 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: minio-application
+  main:
+    allow-bean-definition-overriding: true
+
+minio:
+  endpoint: http://121.36.229.11:9000
+  accessKey: mogu2018
+  secretKey: mogu2018
+  bucketImageName: mogublog
+  enable: true
